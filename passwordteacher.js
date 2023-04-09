@@ -1,7 +1,7 @@
 var users = {
-    "user1": "password1",
-    "user2": "password2",
-    "user3": "password3"
+    "Kranti": "Kranti",
+    "Arpita": "Arpita",
+    "Sonam": "Sonam"
 };
 
 function authenticate() {
@@ -11,7 +11,6 @@ function authenticate() {
 
     
     if (users[username] && users[username] === password) {
-        alert("Login successful!");
         window.location.href = "red.html"; 
         return false; 
     } else {
