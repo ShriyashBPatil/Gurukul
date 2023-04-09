@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #dfe9f5;
+    background: #619ff091;
 
 }
 
@@ -32,6 +32,19 @@ form input{
     border-radius: 20px;
     background: #e4e4e4;
 
+
+}
+.button-sub{
+    font-size: 16px;
+    margin-top: 28.8px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(17, 107, 143);
 
 }
 button{

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+</head>
+<body>
+	<h2>Login Form</h2>
+	<form action="#" method="POST" onsubmit="return authenticate()">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username"><br><br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+		<input type="submit" value="Login" class="button-sub">
+	</form>
+	<script>
+		function authenticate() {
+			// Get the username and password from the form
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+
+			// Replace the following lines with your authentication logic
+			if (username === "admin" && password === "password123") {
+				alert("Login successful!");
+				window.location.href = "welcome.html"; // Redirect to welcome page
+				return false; // Prevent the form from being submitted
+			} else {
+				alert("Invalid username or password. Please try again.");
+				return false; // Prevent the form from being submitted
+			}
+		}
+	</script>
+</body>
+</html>

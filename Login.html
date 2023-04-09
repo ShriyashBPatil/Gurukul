@@ -9,10 +9,12 @@
 <body>
     <div class="wrapper">
         <h1>Student Login</h1>
-        <form action="#">
-            <input type="text" placeholder="Username">
-            <input type="text" placeholder="Admission Number(Last Four Digits)">
-            <input type="password" placeholder="Password">
+        <form action="#" method="POST" onsubmit="return authenticate()">
+            <input type="text" placeholder="Username" id="username">
+            
+            <input type="password" placeholder="Password" id="password">
+
+            <input type="submit" value="Login">
 
         </form>
         <div class="terms">
@@ -20,12 +22,29 @@
             <label for="checkbox">Remember Password<a href="#"></a></label>
 
         </div>
-        <button>Login</button>
+        
         <div class="member">
             Teacher Portal
             <a href="./t-login.html">Login Here</a>
         </div>
     </div>
+    <script>
+		function authenticate() {
+			// Get the username and password from the form
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+
+			// Replace the following lines with your authentication logic
+			if (username === "admin" && password === "password123") {
+				alert("Login successful!");
+				window.location.href = "home.html"; // Redirect to welcome page
+				return false; // Prevent the form from being submitted
+			} else {
+				alert("Invalid username or password. Please try again.");
+				return false; // Prevent the form from being submitted
+			}
+		}
+	</script>
     
 </body>
 </html>
