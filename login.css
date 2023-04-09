@@ -87,3 +87,12 @@ input:focus{
 .member a{
     color: orangered;
 }
+.logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url("images/logo.png");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0 0 10px;
+}
