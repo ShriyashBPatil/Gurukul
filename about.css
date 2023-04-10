@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 20px;
+  }
+
+  .contact {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .contact a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffb300;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .contact a:hover {
+    background-color: #555;
+  }
