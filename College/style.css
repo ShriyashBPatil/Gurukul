@@ -6,18 +6,20 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-.name{
+h1{
+    color: white;
+    border: 15px solid rgb(255, 183, 0);
+        background-color: rgb(255, 183, 0);
+        padding: 1px;
+        margin: 5px;
    
 }
 body{
-  display: flex;
-  padding: 0 35px;
-  min-height: 100vh;
-  
-  justify-content: center;
   background: #ffffff85;
 }
 .wrapper{
+    display: flex;
+    left: 150px;
     top: 10px;
   display: flex;
   max-width: 1200px;
@@ -33,7 +35,7 @@ body{
   position: absolute;
   text-align: center;
   line-height: 44px;
-  background: #fff;
+  background: #ff8c008e;
   border-radius: 50%;
   transform: translateY(-50%);
   transition: transform 0.1s linear;
@@ -42,7 +44,7 @@ body{
   transform: translateY(-50%) scale(0.9);
 }
 .wrapper i:hover{
-  background: #f2f2f2;
+  background: #ff9500;
 }
 .wrapper i:first-child{
   left: -22px;
