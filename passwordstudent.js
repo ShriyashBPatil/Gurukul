@@ -2,7 +2,8 @@ var users = {
     "Shriyash": "Shriyash",
     "Tanmay": "Tanmay",
     "Manali": "Manali",
-	"Madhura": "Madhura"
+	"Madhura": "Madhura",
+    "Student": "Student"
 };
 
 function authenticate() {
